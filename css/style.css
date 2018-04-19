@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+.content {
+  background: #ddd;
+  margin: 10px 0; }
+
+.content {
+  float: left;
+  width: 4rem;
+  height: 2rem;
+  margin: 0.5rem; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }

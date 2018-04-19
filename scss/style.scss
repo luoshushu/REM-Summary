@@ -1,0 +1,26 @@
+@function px($px) {
+  @return $px/$designWidth*10+rem;
+}
+
+$designWidth: 320;   //设计师给你设计稿的宽度
+
+* {margin: 0;padding: 0;}
+body {
+  font-size: 16px
+}
+.content {
+  background: #ddd;
+  margin: 10px 0;
+}
+.content {
+  float: left;
+  width: px(128);
+  height: px(64);
+  margin: px(16);
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}

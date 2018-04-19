@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<script>
+  var pageWidth = window.innerWidth
+  document.write('<style>html{font-size:' + pageWidth/10 + 'px}</style>')
+</script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-size: 16px
+    }
+
+    .content {
+      background: #ddd;
+      margin: 10px 0;
+    }
+
+    .content {
+      float: left;
+      width: 0.4rem;
+      /* 128(div的宽度) / 320(设计稿屏幕的宽度) = 0.4rem */
+      height: 0.2rem;
+      /* 0.4rem的一半 = 0.2rem  =  设计稿的 64px */
+      margin: 0.05rem 0.05rem;
+      /* 0.2rem 的一半为 0.1rem => 32px */
+      /*因为设计稿为16px，所以再 0.1rem的一半 0.05rem*/
+    }
+
+    .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  </style> -->
+</head>
+
+<body>
+
+  <div class="box clearfix">
+    <div class="content">动态REM</div>
+    <div class="content">动态REM</div>
+    <div class="content">动态REM</div>
+    <div class="content">动态REM</div>
+  </div>
+
+  <!-- 
+npm config set registry https://registry.npm.taobao.org/   // 使用淘宝镜像
+touch ~/.bashrc
+echo 'export SASS_BINARY_SITE="https://npm.taobao.org/mirrors/node-sass"' >> ~/.bashrc
+source ~/.bashrc
+npm i -g node-sass
+mkdir ~/Desktop/scss-demo //在桌面新建一个scss-demo的文件夹
+cd ~/Desktop/scss-demo // 进入文件夹中
+mkdir scss css        // scss-demo在新建scss和css文件
+touch scss/style.scss //在scss文件中新建一个style.scss
+start scss/style.scss  // 启动
+node-sass -wr scss -o css -->
+
+
+</body>
+
+</html>
