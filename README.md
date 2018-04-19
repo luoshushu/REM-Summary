@@ -203,9 +203,12 @@ js
   document.write('<style>html{font-size:' + pageWidth/10 + 'px}</style>')
 </script>
 ```
-![效果](https://upload-images.jianshu.io/upload_images/5691870-93c375e36538c977.gif?imageMogr2/auto-orient/strip)
 
 
+
+
+
+![效果](http://oy5vxcq55.bkt.clouddn.com/px2rem.gif)
 
 
 
